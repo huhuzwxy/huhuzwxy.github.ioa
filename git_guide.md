@@ -17,6 +17,7 @@
 
 # 版本回退
     git reset --hard HEAD^ 回退到上个版本
+    git push origin HEAD --force 强制将回退版本推送到远程
     git reset --hard commit_id 找到想要回退版本的commit_id即可
     git reset HEAD xxx 某文件版本回退
 
