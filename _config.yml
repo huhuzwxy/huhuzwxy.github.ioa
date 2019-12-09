@@ -1,7 +1,7 @@
 ## Settings
 title: pRoJEct-NeGYa
 owner: "DeerRIDER"
-url: "https://akiritsu.github.io"
+url: "https://huhuzwxy.github.io"
 baseurl: "/pRoJEct-NeGYa"
 permalink: /:title/
 description: ""
@@ -10,7 +10,7 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
-email: "akiritsu@outlook.com"
+email: "zwxy@mail.ustc.edu.cn"
 github: "akiritsu/pRoJEct-NeGYa"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
