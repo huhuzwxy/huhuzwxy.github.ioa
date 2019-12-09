@@ -1,6 +1,6 @@
 ## Settings
-title: pRoJEct-NeGYa
-owner: "DeerRIDER"
+title: huhuzwxy
+owner: "zwxy"
 url: "https://huhuzwxy.github.io"
 baseurl: "/huhuzwxy.github.io"
 permalink: /:title/
@@ -14,7 +14,7 @@ email: "zwxy@mail.ustc.edu.cn"
 github: "huhuzwxy/huhuzwxy.github.io"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
-statement: "Designed by DeerRIDER, All Rights Reserved"
+statement: "hhh"
 # default max toc levels: 1 - 6 (h1 - h6)
 toc_level: 3
 # texts randomly displayed in background
