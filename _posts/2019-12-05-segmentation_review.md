@@ -24,6 +24,7 @@
     - a contracting path to capture context
     - a symmetric expanding path that enables precise localization
     - skip connections
+    - weighted BCE
 
 2. DCAN
 
@@ -31,7 +32,7 @@
     - Residual connections
     - dice loss
 
-4. DenseNet
+4. DenseNet-based
 
 ### Attention-based
 
