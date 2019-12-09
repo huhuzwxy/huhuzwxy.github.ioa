@@ -1,130 +1,47 @@
-# texture
+# PRoJEct-NeGYa
 
-A configurable jekyll theme for simply beautiful blogs.
+黑客风格的个人主页模板。
 
-**Demo**: [thelehhman.com/texture](https://thelehhman.com/texture)
+版本： v1.01
 
-![texture theme preview](/screen1.png)
+## 特性
 
+1. 狂拽酷炫
+2. Rouge支持代码高亮
+3. MathJax公式
+4. 文章索引
+5. 高度可定制化
+6. 加密内容（也可以把元素id改成密文，元素内容写“无该字段访问权限！”）
 
-## Installation on Github Pages
+## 更新日志
 
-Add this line to your site's `_config.yml`:
-```yaml
-remote_theme: thelehhman/texture
-```
+2019.7.17：更新说明文件
 
-**NOTE: If you are forking this repo, remove `base_url: /texture` in the `_config.yml` which is required to load the required website assets**
-## Installation
+2019.6.15：老子就做这一版，凑合能用得了，我可不改了啊！
 
-Add this line to your Jekyll site's `Gemfile`:
+## 使用方法
 
-```ruby
-gem "texture"
-```
+* 下载或者fork到自己的github仓库里
+* 修改_config.yml文件
+* （自定义域名）修改CNAME文件
+* 修改pages/index.md文件，自定义主页
+* 删除_posts/文件夹里的文件，添加自己的文章
+* 同步到github远程仓库
 
-And add this line to your Jekyll site's `_config.yml`:
+## 工程结构
 
-```yaml
-theme: texture
-```
+功能和内容隔离TMD！
 
-And then execute:
+网站内容：
+* _posts：文章
+* pages：页面
+* assets/img：图
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install texture
-
-## Usage
-
-The "texture" key in _config.yml is used to customize the theme data.
-```yaml
-texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
-
-  social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman # format: locale/username
-```
-
-**Styling**
-
-Multiple header styles are supported using the "style" property under texture in `_config.yml`.
-
-```yaml
-texture:
-  style: [yellow|red|black|blue|green|purple]
-```
-
-For example, the blue style looks like this:
-
-![texture theme blue](/screen2.png)
-
-
-**Texture Picker**
-
-You can toggle the texture picker to show/experiment various textures on your site using the showPicker variable. Remember to make it `false` for production.
-
-```yaml
-texture:
-  showPicker: [false|true] # show the texture selector(development purposes)
-```
-
-**Comments (Disqus)**
-
-Comments on posts can be enabled by specifying your disqus_shortname under texture in `_config.yml`. For example,
-```yaml
-texture:
-  disqus_shortname: games
-```
-
-**Google Analytics**
-
-It can be enabled by specifying your analytics id under texture in `_config.yml`
-```yaml
-texture:
-  analytics_id: '< YOUR ID >'
-```
-
-**Excerpts**
-
-Excerpts can be enabled by adding the following line to your `_config.yml`
-```yaml
-show_excerpts: true
-```
-
-**Toggle Navbar**
-
-```yaml
-texture:
-  showNav: true
-```
-
-**Layouts**
-
-- Home
-- Page
-- Post
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/texture. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `texture.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+功能样式：
+* _includes：子页面模块
+* _layouts：页面模板（单纯地组合子页面模块）
+* assets/css：样式表文件
+* assets/fonts：字体文件
+* assets/js：脚本文件
+* _config.yml：配置文件
 
