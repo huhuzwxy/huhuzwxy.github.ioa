@@ -2,7 +2,7 @@
 title: pRoJEct-NeGYa
 owner: "DeerRIDER"
 url: "https://huhuzwxy.github.io"
-baseurl: "/pRoJEct-NeGYa"
+baseurl: "/huhuzwxy.github.io"
 permalink: /:title/
 description: ""
 markdown: kramdown
@@ -11,7 +11,7 @@ webrick:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
 email: "zwxy@mail.ustc.edu.cn"
-github: "akiritsu/pRoJEct-NeGYa"
+github: "huhuzwxy/huhuzwxy.github.io"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
 statement: "Designed by DeerRIDER, All Rights Reserved"
