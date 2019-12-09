@@ -37,5 +37,5 @@ end
 ```
 ## Download and Documentation
 
-[**pRoJEct NeGYa (Github)**](https://github.com/akiritsu/pRoJEct-NeGYa)
+[**zwxy (Github)**](https://github.com/huhuzwxy)
 
